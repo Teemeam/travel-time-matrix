@@ -1,9 +1,8 @@
 # Travel Time Matrix  
-The goal is to create the following kind of visualization based on the Digitransit Routing API and HERE Route API using also the help of QGIS.  
-**Table of Contents**  
-Preparations  
-Get the data  
-Color the matrix  
+A guide to create travel time matrices using the Digitransit Routing API and the HERE Route API.  
+### Used technologies:  
+* QGIS3.8  
+* Python 3.7  
 
 ![Lahti travel time matrix](img/lahti-travel-time-matrix.jpg)  
   
