@@ -67,6 +67,8 @@ The results should look something like:
 | Trio  | 4 | 60.983039  | 25.663247 | 61.02111019 | 25.52843866| 2887 |
 | Trio  | 5 | 60.983039  | 25.663247 | 61.02111019 | 25.52843866| 2137 |  
   
+To color the matrix see [Color the matix](#color-the-matrix)  
+  
 ## HERE Route API  
 [HERE Route API](https://developer.here.com/documentation/routing/topics/resource-calculate-matrix.html) calculates travel times between coordinates with a car.  
 ## Color the matrix 
