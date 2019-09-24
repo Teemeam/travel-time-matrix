@@ -93,4 +93,4 @@ When you have merged the layers, you can color the matrix from Symbology -> Cate
   
 ![Color matrix](img/color-matrix.png)   
   
-Voilá!  
+Voilà!  
