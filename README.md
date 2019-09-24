@@ -29,7 +29,7 @@ Show centroids of the grid by choosing Vector -> Geometry Tools -> Centroids. Ad
 Lastly, export centroids layer as csv. You need the index column and the coordinate columns. The file should look like this:  
   
 | Id  | longitude | latitude |
-| ------------- | ------------- |
+| --- | --- | --- |
 | 1  | 25,52843866  | 61,02111019  |
 | 2  | 25,52843866  | 61,01511019  |
 | 3  | 25,52843866  | 61,00911019  |
