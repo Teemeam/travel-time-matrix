@@ -7,7 +7,10 @@ This is Lahti region and Lahti's four shopping centres. An example of how to rea
 ## Table of Contents  
 1. [Used technologies](#used-technologies)  
 2. [Preparations](#preparations)  
-### Used technologies:  
+3. [Digitransit Routing API](#digitransit-routing-api)  
+3. [HERE Route API](#here-route-api)  
+4. [Color the matix](#color-the-matrix)  
+## Used technologies:  
 * QGIS3.8  
 * Python 3.7  
 ## Preparations  
@@ -16,6 +19,8 @@ Set Grid type to Rectangle (polygon) and Grid extent to Use Canvas Extent. Grid 
 ![Create Grid](img/create-grid.png)  
 Select the grid you just created. From Vector -> Geometry Tools -> Add Geometry Attributes add the geometry attributes to the layer. Here it's wise to save the grid layer as GeoJSON to a folder where you can find it later.  
 Show centroids of the grid by choosing Vector -> Geometry Tools -> Centroids. Add geometry attributes to the newly added points as well. Save the centroids layer as GeoJSON for further use. Lastly, export centroids layer as csv. You need the index column and the coordinate columns.  
-## Get the data  
+## Digitransit Routing API
 Once you have 
-## Color the matrix  
+## HERE Route API  
+Text  
+## Color the matrix 
