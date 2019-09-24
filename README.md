@@ -53,5 +53,5 @@ Now that you have the origin coordinates and the target coordinates, it is time 
 ## Digitransit Routing API
 Use [Digitransit Routing API](https://digitransit.fi/en/developers/architecture/x-apis/1-routing-api/) to calculate travel times between coordinates via public transport.  
 ## HERE Route API  
-Text  
+[HERE Route API](https://developer.here.com/documentation/routing/topics/resource-calculate-matrix.html) calculates travel times between coordinates with a car.  
 ## Color the matrix 
