@@ -9,7 +9,7 @@ This is Lahti region and Lahti's four shopping centres. An example of how to rea
 2. [Preparations](#preparations)  
 3. [Digitransit Routing API](#digitransit-routing-api)  
 3. [HERE Route API](#here-route-api)  
-4. [Color the matix](#color-the-matrix)  
+4. [Color the matrix](#color-the-matrix)  
 ## Used technologies:  
 * QGIS3.8  
 * Python 3.7  
@@ -67,8 +67,9 @@ The results should look something like:
 | Trio  | 4 | 60.983039  | 25.663247 | 61.02111019 | 25.52843866| 2887 |
 | Trio  | 5 | 60.983039  | 25.663247 | 61.02111019 | 25.52843866| 2137 |  
   
-To color the matrix see [Color the matix](#color-the-matrix)  
-  
+To color the matrix see [Color the matrix](#color-the-matrix)  
+
 ## HERE Route API  
-[HERE Route API](https://developer.here.com/documentation/routing/topics/resource-calculate-matrix.html) calculates travel times between coordinates with a car.  
+[HERE Route API](https://developer.here.com/documentation/routing/topics/resource-calculate-matrix.html) calculates travel times between coordinates with a car. Follow the instructions of ipynb/lahti-here.ipynb.  
+To use the HERE Route API you need an **app id** and an **app code**. Login to your [HERE account](https://developer.here.com/) to get them.  
 ## Color the matrix 
