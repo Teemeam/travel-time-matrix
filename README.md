@@ -53,7 +53,7 @@ Lastly, export centroids layer as csv. Take the index column and the coordinate 
   
 Now that you have the origin coordinates and the target coordinates, it is time to create our matrix.  
 ## Digitransit Routing API
-Use [Digitransit Routing API](https://digitransit.fi/en/developers/architecture/x-apis/1-routing-api/) to calculate travel times between coordinates via public transport. Follow the instructions of py/lahti-digitransit.ipynb.  
+Use [Digitransit Routing API](https://digitransit.fi/en/developers/architecture/x-apis/1-routing-api/) to calculate travel times between coordinates via public transport. Follow the instructions of ipynb/lahti-digitransit.ipynb.  
   
 ![Py](img/py.png)
   
