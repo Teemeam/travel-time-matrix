@@ -21,9 +21,21 @@ We start by opening QGIS and choosing the area we like to focus on. You may use 
 Set Grid type to Rectangle (polygon) and Grid extent to Use Canvas Extent. Grid CRS has to be EPSG:4326 - WGS 84 to work. Lastly, set the spacing (in degrees) to for example 0,008. The smaller the number the more time consuming it will be to create the matrix.  
 
 ![Create Grid](img/create-grid.gif) 
-   
+
 Select the grid you just created. From Vector -> Geometry Tools -> Add Geometry Attributes add the geometry attributes to the layer. Here it's wise to save the grid layer as GeoJSON to a folder where you can find it later.  
-Show centroids of the grid by choosing Vector -> Geometry Tools -> Centroids. Add geometry attributes to the newly added points as well. Save the centroids layer as GeoJSON for further use. Lastly, export centroids layer as csv. You need the index column and the coordinate columns.  
+
+Show centroids of the grid by choosing Vector -> Geometry Tools -> Centroids. Add geometry attributes to the newly added points as well. Save the centroids layer as GeoJSON for further use.  
+  
+Lastly, export centroids layer as csv. You need the index column and the coordinate columns. The file should look like this:  
+  
+| Id  | longitude | latitude |
+| ------------- | ------------- |
+| 1  | 25,52843866  | 61,02111019  |
+| 2  | 25,52843866  | 61,01511019  |
+| 3  | 25,52843866  | 61,00911019  |
+| 4  | 25,52843866  | 61,00311019  |
+| 5  | 25,52843866  | 60,99711019  |  
+
 ## Digitransit Routing API
 Once you have 
 ## HERE Route API  
