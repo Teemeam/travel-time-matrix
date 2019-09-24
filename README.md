@@ -87,7 +87,7 @@ When the matrix is ready to be colored, it should look like this:
 | 2  | 778 | 3 | Karisma | 60.981540700000004  | 25.664421700000002 | 61.00911019 | 25.52843866| 2911 |
 | 3  | 3 | 4 | Trio | 60.983039  | 25.663247 | 61.00311019 | 25.52843866| 2887 |  
   
-Now you can merge the matrix file to your grid layer in QGIS. Open the properties of the grid layer -> Joins -> Add new join. Join layer is the new matrix.csv. Join field is Id and target field id.  
+Now you can merge the matrix file to your grid layer in QGIS. Open the properties of the grid layer -> Joins -> Add new join. Join layer is the new matrix.csv. Join field = Id and target field = id.  
   
 When you have merged the layers, you can color the matrix from Symbology -> Categorized.  
   
