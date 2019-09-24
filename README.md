@@ -5,6 +5,8 @@ A guide to create travel time matrices using the Digitransit Routing API and the
   
 This is Lahti region and Lahti's four shopping centres. An example of how to read the matrix: When using public transport, Karisma is the closest shopping centre anywhere in the red area.  
 ## Table of Contents  
+1. [Used technologies](#used-technologies)  
+2. [Preparations](#preparations)  
 ### Used technologies:  
 * QGIS3.8  
 * Python 3.7  
