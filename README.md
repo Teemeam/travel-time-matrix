@@ -77,3 +77,13 @@ To use the HERE Route API you need an **app id** and an **app code**. Login to y
 Use ipynb/find-closest.ipynb to create a table of closest shopping centres. 
   
 ![Py](img/grouping.png)  
+  
+When the matrix is ready to be colored, it should look like this:  
+
+|   | index | Id | name | origin_latitude | origin_longitude | target_latitude | target_longitude | tt |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 0  | 0 | 1 | Trio | 60.983039  | 25.663247 | 61.02111019| 25.52843866| 2156 |
+| 1  | 1 | 2 | Trio | 60.983039  | 25.663247 | 61.01511019 | 25.52843866| 2813 |
+| 2  | 778 | 3 | Karisma | 60.981540700000004  | 25.664421700000002 | 61.00911019 | 25.52843866| 2911 |
+| 3  | 3 | 4 | Trio | 60.983039  | 25.663247 | 61.00311019 | 25.52843866| 2887 |  
+  
