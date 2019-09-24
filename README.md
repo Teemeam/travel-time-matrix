@@ -92,3 +92,5 @@ Now you can merge the matrix file to your grid layer in QGIS. Open the propertie
 When you have merged the layers, you can color the matrix from Symbology -> Categorized.  
   
 ![Color matrix](img/color-matrix.png)   
+  
+Voilá!  
