@@ -13,6 +13,8 @@ This is Lahti region and Lahti's four shopping centres. An example of how to rea
 ## Used technologies:  
 * QGIS3.8  
 * Python 3.7  
+* JupyterLab 0.35.3
+* Jupyter Notebook 5.7.4
 ## Preparations  
 Our first mission is to create a list of origin coordinates and target coordinates. In the example above, the origin coordinates are the coordinates of the shopping centers and the target coordinates are the centroids of the rectangles.  
   
@@ -52,6 +54,9 @@ Lastly, export centroids layer as csv. Take the index column and the coordinate 
 Now that you have the origin coordinates and the target coordinates, it is time to create our matrix.  
 ## Digitransit Routing API
 Use [Digitransit Routing API](https://digitransit.fi/en/developers/architecture/x-apis/1-routing-api/) to calculate travel times between coordinates via public transport.  
+  
+![Py](img/py.png)
+
 ## HERE Route API  
 [HERE Route API](https://developer.here.com/documentation/routing/topics/resource-calculate-matrix.html) calculates travel times between coordinates with a car.  
 ## Color the matrix 
