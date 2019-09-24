@@ -71,5 +71,6 @@ To color the matrix see [Color the matrix](#color-the-matrix)
 
 ## HERE Route API  
 [HERE Route API](https://developer.here.com/documentation/routing/topics/resource-calculate-matrix.html) calculates travel times between coordinates with a car. Follow the instructions of ipynb/lahti-here.ipynb.  
+  
 To use the HERE Route API you need an **app id** and an **app code**. Login to your [HERE account](https://developer.here.com/) to get them.  
 ## Color the matrix 
