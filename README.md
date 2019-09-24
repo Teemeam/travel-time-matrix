@@ -56,7 +56,17 @@ Now that you have the origin coordinates and the target coordinates, it is time 
 Use [Digitransit Routing API](https://digitransit.fi/en/developers/architecture/x-apis/1-routing-api/) to calculate travel times between coordinates via public transport. Follow the instructions of py/lahti-digitransit.ipynb.  
   
 ![Py](img/py.png)
+  
+The results should look something like:  
 
+| name  | Id | origin_latitude | origin_longitude | target_latitude | target_longitude | tt |
+| --- | --- | --- | --- | --- | --- | --- |
+| Trio  | 1 | 60.983039  | 25.663247 | 61.02111019 | 25.52843866| 2156 |
+| Trio  | 2 | 60.983039  | 25.663247 | 61.02111019 | 25.52843866| 2813 |
+| Trio  | 3 | 60.983039  | 25.663247 | 61.02111019 | 25.52843866| 5717 |
+| Trio  | 4 | 60.983039  | 25.663247 | 61.02111019 | 25.52843866| 2887 |
+| Trio  | 5 | 60.983039  | 25.663247 | 61.02111019 | 25.52843866| 2137 |  
+  
 ## HERE Route API  
 [HERE Route API](https://developer.here.com/documentation/routing/topics/resource-calculate-matrix.html) calculates travel times between coordinates with a car.  
 ## Color the matrix 
